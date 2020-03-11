@@ -7,3 +7,8 @@ const f = firstName => {
     resolve(fullName);
   });
 };
+
+
+/* Usage */
+f('SomeName').then(res => console.log(res)).catch(err => console.log(err))
+f().then(res => console.log(res)).catch(err => console.log(err))
